@@ -8,7 +8,11 @@
 
 # Methods and Functions (KEYWORD2)
 #######################################
-DumpAllregisters	KEYWORD2
+DumpAllRegisters	KEYWORD2
+StartDumping		KEYWORD2
+StopDumping		KEYWORD2
+DumpRegister		KEYWORD2
+DumpRam                 KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

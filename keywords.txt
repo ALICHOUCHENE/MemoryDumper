@@ -13,7 +13,6 @@ StartDumping		KEYWORD2
 StopDumping		KEYWORD2
 DumpRegister		KEYWORD2
 DumpRam                 KEYWORD2
-
 #######################################
 # Constants (LITERAL1)
 #######################################

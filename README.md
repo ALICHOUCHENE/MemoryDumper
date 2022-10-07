@@ -1,11 +1,10 @@
 # MemoryDumper
 ## Arduino library to dump registers and RAM contents
 
-Bare metal programming is a way to build efficient and lightweight real-time software.
+Bare metal programming is a way to create efficient and lightweight real-time applications. However, writing a piece of code that modifies bits in registers to achieve the desired behavior of the microcontroller requires a lot of debugging to see what is actually happening in the hardware.
 
-Writing code that changes bits in registers to achieve the desired behavior of the microcontroller requires debugging to see what is actually happening in hardware.
-
-This library uses the serial port to print registers and RAM contentes and The UART communication layer is developed in bare metal programming so the Serial library is not used in order to optimize the library size and execution time.
+This library uses the serial port to print registers and RAM contentes.
+The UART communication layer is developed in bare metal programming so the Serial library is not used in order to optimize the library size and execution time.
 
 ## Implemented functions
 
